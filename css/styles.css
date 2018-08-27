@@ -1,0 +1,194 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto');
+
+html,body{
+    width:100%;
+    overflow-x:hidden;
+    margin:0;
+  }
+
+.heroText{
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:30px;
+
+}
+
+h1{
+	text-align:center;
+	font-family: 'Nunito Sans Black', sans-serif;
+	font-size:40px;
+	margin:0px;
+	letter-spacing: .1em;
+	text-transform: lowercase;
+}
+p{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	line-height: 10px;
+	font-size:12px;
+	margin:0px;
+	padding-top:6px;
+	margin-bottom:30px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+	
+}
+
+.mainImage{
+	width:100%;
+}
+
+.sectionHeading{
+	text-align:center;
+	font-family: 'Nunito Sans Black', sans-serif;
+	font-size:26px;
+	margin:0px;
+	letter-spacing: .07em;
+	text-transform: lowercase;
+	font-weight: bolder;
+	padding-bottom:20px;
+}
+
+.subSectionHeading{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	line-height: 10px;
+	font-size:12px;
+	margin:0px;
+
+	margin-bottom:30px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+}
+
+section{
+	padding-bottom:30px;
+}
+#reservation {
+	text-align:center;
+}
+.existingReservation {
+	text-align: center;
+}
+
+.existingReservation table{
+	border:2px solid #e7e7e7;
+width:60%;
+margin:0 auto;
+
+text-align:center;
+}
+
+.existingReservation table td, th, thead{
+text-align:center;
+border-collapse:collapse;
+margin:0;
+}
+
+.existingReservation table th{
+	background: #e7e7e7;
+	padding:10px 0 10px 0;
+	border-collapse:collapse;
+	margin:0;
+	width:50%;
+
+}
+
+.existingReservation table thead{
+	border-collapse:collapse;
+	background: #e7e7e7;
+}
+
+#scheduledReservations{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	letter-spacing: .05em;
+	margin-bottom:50px;
+	border-collapse: collapse;
+}
+
+
+
+#makeReservation{
+text-align: center;
+border:2px solid #e7e7e7;
+width:60%;
+margin:0 auto;
+padding:20px 0 20px 0;
+box-shadow: 4px 4px 20px 2px #eeeeee;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 1em;
+    box-sizing: content-box;
+    margin: .5em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	letter-spacing: .05em;
+}
+
+button{
+	width: 30%;
+    padding: 1em;
+    margin: 1em;
+    background: #df4c5e;
+    color:#FFFFFF;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	font-weight: bold;
+}
+
+button:hover {
+background: #971227;
+}
+
+#dine{
+	margin-top:30px;
+}
+
+.review{
+	text-align: center;
+	border:2px solid #e7e7e7;
+	width:60%;
+	margin:0 auto;
+	box-shadow: 4px 4px 20px 2px #eeeeee;
+}
+
+.reviewImage{
+width:100%;
+	float:left;
+}
+
+.review1{
+	width:40%;
+}
+
+.review2{
+	width:60%;
+}
+
+.reviewQuote{
+	font-size:20px;
+	line-height: 30px;
+	padding:0 20px 20px 20px;
+	font-family: 'Nunito Sans Black', sans-serif;
+	font-weight: bolder;
+}
+
+.reviewCustomer{
+	font-size:12px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	font-weight: bold;
+	vertical-align: middle;
+}
