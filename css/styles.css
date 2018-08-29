@@ -10,19 +10,26 @@ html,body{
   }
 
 .heroText{
-	text-align:center;
-	margin-top:20px;
-	margin-bottom:30px;
+
+	text-align: center;
+	padding-top:100px;
+	background-image:url('images/mountains.jpg');
+
 
 }
 
 h1{
 	text-align:center;
-	font-family: 'Nunito Sans Black', sans-serif;
-	font-size:40px;
-	margin:0px;
-	letter-spacing: .1em;
-	text-transform: lowercase;
+	font-family: 'proxima nova', sans-serif;
+	font-size:60px;
+	margin:0px auto;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	color: #4d8394;
+	font-weight: bolder;
+	border: 4px solid #4d8394;
+	padding: 10px 10px 10px 20px;
+	width:24%;
 }
 p{
 	text-align: center;
